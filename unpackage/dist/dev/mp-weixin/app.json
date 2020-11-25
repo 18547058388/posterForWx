@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/cuxiao/cuxiao",
+    "pages/index/haibao/haibao",
+    "pages/index/jiameng/jiameng",
+    "pages/index/peixun/peixun",
+    "pages/index/renwu/renwu",
+    "pages/index/yaoqing/yaoqing",
+    "pages/index/zhanbao/zhanbao",
+    "pages/index/zhaopin/zhaopin",
+    "pages/template/template",
+    "pages/personal/personal",
+    "pages/personal/devise/devise",
+    "pages/personal/devise/edit/edit",
+    "pages/personal/collect/collect",
+    "pages/personal/customerservice/customerservice",
+    "pages/personal/install/install",
+    "pages/personal/install/privacy/privacy",
+    "pages/personal/install/change/change",
+    "pages/personal/install/secede/secede",
+    "pages/personal/install/change/login/login",
+    "pages/template/edit/edit"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "grey",
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/image/firsticon.png",
+        "selectedIconPath": "static/image/firsticonslected.png"
+      },
+      {
+        "text": "模板库",
+        "pagePath": "pages/template/template",
+        "iconPath": "static/image/templateicon.png",
+        "selectedIconPath": "static/image/templateiconselected.png"
+      },
+      {
+        "text": "个人中心",
+        "pagePath": "pages/personal/personal",
+        "iconPath": "static/image/personalicon.png",
+        "selectedIconPath": "static/image/personaliconselected.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

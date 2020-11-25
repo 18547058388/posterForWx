@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "创意海报 | 锁客链",
+  "usingComponents": {
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button"
+  }
+}

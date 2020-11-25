@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "模板库",
+  "usingComponents": {
+    "u-tabs": "/node-modules/uview-ui/components/u-tabs/u-tabs",
+    "u-search": "/node-modules/uview-ui/components/u-search/u-search",
+    "current1": "/components/current1",
+    "current2": "/components/current2",
+    "current3": "/components/current3"
+  }
+}

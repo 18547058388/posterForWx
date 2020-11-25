@@ -1,0 +1,181 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "海报 小程序",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/cuxiao/cuxiao",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/haibao/haibao",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/jiameng/jiameng",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/peixun/peixun",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/renwu/renwu",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/yaoqing/yaoqing",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/zhanbao/zhanbao",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/zhaopin/zhaopin",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+
+
+		{
+			"path": "pages/template/template",
+			"style": {
+				"navigationBarTitleText": "模板库"
+				
+			}
+		},
+		{
+			"path": "pages/personal/personal",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
+			"path": "pages/personal/devise/devise",
+			"style": {
+				"navigationBarTitleText": "我的设计"
+			}
+		},
+		{
+			"path": "pages/personal/devise/edit/edit",
+			"style": {
+				"navigationBarTitleText": "编辑"
+			}
+		},
+		{
+			"path": "pages/personal/collect/collect",
+			"style": {
+				"navigationBarTitleText": "我的收藏"
+			}
+		},
+		{
+			"path": "pages/personal/customerservice/customerservice",
+			"style": {
+				"navigationBarTitleText": "联系客服"
+			}
+		},
+		{
+			"path": "pages/personal/install/install",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		},
+		{
+			"path": "pages/personal/install/privacy/privacy",
+			"style": {
+				"navigationBarTitleText": "隐私协议"
+			}
+		},
+		{
+			"path": "pages/personal/install/change/change",
+			"style": {
+				"navigationBarTitleText": "账号登录"
+			}
+		},
+		{
+			"path": "pages/personal/install/secede/secede",
+			"style": {
+				"navigationBarTitleText": "退出登录"
+			}
+		},
+		{
+			"path": "pages/personal/install/change/login/login",
+			"style": {
+				"navigationBarTitleText": "创意海报 | 锁客链"
+			}
+		}
+
+
+	    ,{
+            "path" : "pages/template/edit/edit",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "模板编辑",
+				"navigationBarBackgroundColor":"#303133",
+				"navigationBarTextStyle":"white"		
+            }
+            
+        }
+        
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		 "backgroundColor": "#F8F8F8" 
+	},
+	"tabBar": {
+		"color": "grey",
+		"selectedColor": "#1296db",
+		"list": [{
+				"text": "首页",
+				"pagePath": "pages/index/index",
+				"iconPath": "static/image/firsticon.png",
+				"selectedIconPath": "static/image/firsticonslected.png"
+			},
+			{
+				"text": "模板库",
+				"pagePath": "pages/template/template",
+				"iconPath": "static/image/templateicon.png",
+				"selectedIconPath": "static/image/templateiconselected.png"
+			},
+			{
+				"text": "个人中心",
+				"pagePath": "pages/personal/personal",
+				"iconPath": "static/image/personalicon.png",
+				"selectedIconPath": "static/image/personaliconselected.png"
+			}
+		]
+	}
+
+
+
+
+
+
+
+
+}

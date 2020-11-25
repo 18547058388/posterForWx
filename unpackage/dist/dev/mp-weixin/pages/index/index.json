@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "海报 小程序",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-navbar": "/node-modules/uview-ui/components/u-navbar/u-navbar",
+    "u-back-top": "/node-modules/uview-ui/components/u-back-top/u-back-top",
+    "u-search": "/node-modules/uview-ui/components/u-search/u-search",
+    "u-tabs-swiper": "/node-modules/uview-ui/components/u-tabs-swiper/u-tabs-swiper",
+    "u-swiper": "/node-modules/uview-ui/components/u-swiper/u-swiper",
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon"
+  }
+}
