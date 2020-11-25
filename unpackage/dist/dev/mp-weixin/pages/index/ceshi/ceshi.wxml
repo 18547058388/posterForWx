@@ -1,0 +1,1 @@
+<view><u-input bind:input="__e" vue-id="63867c12-1" type="{{type}}" border="{{border}}" height="{{height}}" auto-height="{{autoHeight}}" value="{{wenzi}}" data-event-opts="{{[['^input',[['__set_model',['','wenzi','$event',[]]]]]]}}" bind:__l="__l"></u-input>{{''+wenzi+''}}</view>

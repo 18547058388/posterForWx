@@ -25,19 +25,21 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
+.chakangengduo.data-v-57280228 {
+  margin-left: 430rpx;
+}
 .navbar .slot.data-v-57280228 {
-  width: 720rpx;
-  margin-bottom: -400rpx;
+  width: 750rpx;
   background-color: #fff;
-  margin: 0 15rpx;
+  padding: 0 15rpx;
   position: fixed;
   top: 208rpx;
 }
 .redian.data-v-57280228 {
   background-color: #F7534F;
-  position: absolute;
-  bottom: 845rpx;
-  left: 130rpx;
+  position: relative;
+  top: -100rpx;
+  left: 100rpx;
   width: 65rpx;
   height: 40rpx;
   font-size: 25rpx;
@@ -126,7 +128,14 @@
 }
 .img.data-v-57280228 {
   padding: 20rpx;
-  margin-top: 30rpx;
+  margin-top: 220rpx;
+}
+.img image.data-v-57280228 {
+  height: 200rpx;
+  width: 720rpx;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  margin: 0 auto;
 }
 .content.data-v-57280228 {
   display: -webkit-box;
@@ -150,6 +159,41 @@
   margin-top: 100rpx;
 }
 .u-tabswiper.data-v-57280228 {
+  margin-top: 180rpx;
+  position: fixed;
+  top: 100rpx;
+  width: 750rpx;
+  height: 150rpx;
+  z-index: 3;
+}
+.img2.data-v-57280228 {
+  width: 600rpx;
+  height: 900rpx;
   margin-top: 100rpx;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+}
+.warp.data-v-57280228 {
+  text-align: center;
+  margin-top: 200rpx;
+}
+.icon.data-v-57280228 {
+  margin-top: 40rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  width: 380rpx;
+  margin-left: 185rpx;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.icon .icon1.data-v-57280228 {
+  background-color: #fff;
+  width: 100rpx;
+  height: 100rpx;
+  -webkit-border-radius: 50rpx;
+          border-radius: 50rpx;
+  padding-top: 20rpx;
 }
 

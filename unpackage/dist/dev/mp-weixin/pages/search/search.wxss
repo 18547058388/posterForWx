@@ -1,0 +1,51 @@
+
+.huise{
+		margin-bottom: 30rpx;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-wrap: wrap;
+		        flex-wrap: wrap;
+}
+.beijing{
+	margin-top: 30rpx;
+	margin-right: 30rpx;
+	-webkit-border-radius: 30rpx;
+	        border-radius: 30rpx;
+	height: 40rpx;
+	width:-webkit-fit-content;
+	width:fit-content;
+	text-align: center;
+	line-height: 40rpx;
+	padding: 0 20rpx;
+	background-color: #c6bdae;
+}
+.wenzi{
+	font-size: 35rpx;
+	margin-top:50rpx;
+	font-weight: 600;
+}
+.wenzi2{
+	font-size: 35rpx;
+	margin-top:50rpx;
+	font-weight: 600;
+}
+.beijing2{
+	margin-top: 30rpx;
+	margin-right: 30rpx;
+	-webkit-border-radius: 30rpx;
+	        border-radius: 30rpx;
+	height: 40rpx;
+	text-align: center;
+	line-height: 40rpx;
+	width:-webkit-fit-content;
+	width:fit-content;
+	padding: 0 20rpx;
+	background-color: #c6bdae;
+}
+.search{
+	width: 720rpx;
+	margin: 20rpx auto;
+}
+
+

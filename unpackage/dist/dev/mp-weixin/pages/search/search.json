@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "创意海报",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-search": "/node-modules/uview-ui/components/u-search/u-search"
+  }
+}

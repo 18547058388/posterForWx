@@ -64,18 +64,4 @@
   background-color: #FFFFFF;
   text-align: center;
 }
-.mode-top {
-  font-size: 35rpx;
-  margin-top: 50rpx;
-  margin-left: 30rpx;
-}
-.mode-bottom {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: flex;
-  width: 600rpx;
-  margin-top: 50rpx;
-  -webkit-justify-content: space-around;
-          justify-content: space-around;
-}
 

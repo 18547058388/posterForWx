@@ -9,16 +9,7 @@
 		</view>
 		<view class="cut" @click="getChange">切换账号</view>
 		<view>
-			<u-popup v-model="show" mode="center" width="600rpx" height="300rpx" closeable="true">
-				<view class="mode-top">确定要退出吗？</view>
-				<view class="mode-bottom">
-					<u-button type="success"  :custom-style="{width:'200rpx',height:'80rpx',
-					fontSize:'30rpx',flex:1,marginTop:'10rpx'}">确认</u-button>
-					<u-button open-type="getUserInfo" @click="show = false"  hover-class="none" :hair-line="false"
-					 :custom-style="{width:'200rpx',height:'80rpx',fontSize:'30rpx',flex:1,
-					 marginTop:'10rpx',backgroundColor:'#EDEDED',border:'1px solid #EDEDED '}">取消</u-button>
-				</view>
-			</u-popup>
+			<u-modal v-model="show" :content="content" show-confirm-button="true" show-cancel-button="true"></u-modal>
 			<view class="quit"@click="getSecede" >退出登录</view>
 		</view>
 		
@@ -93,17 +84,5 @@
 		line-height: 110rpx;
 		background-color: #FFFFFF;
 		text-align: center;
-	}
-	.mode-top {
-		font-size: 35rpx;
-		margin-top: 50rpx;
-		margin-left: 30rpx;
-	}
-	
-	.mode-bottom {
-		display: flex;
-		width: 600rpx;
-		margin-top: 50rpx;
-		justify-content: space-around;
 	}
 </style>

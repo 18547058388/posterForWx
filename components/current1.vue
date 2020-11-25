@@ -1,4 +1,4 @@
---<template>
+<template>
 	<view class="content">
 		<view class="ld">
 		
@@ -22,12 +22,12 @@
 				>
 					 <view v-for="(item,index) in kindlist" :key="index">
 						<view class="title" ><text :id="'po'+index">{{item.title}}</text></view>
-				<view class="imagelist"  >
-				 <view  v-for="(item2,index2) in kindlist" :key="index2"> 
+				<view class="imagelist">
+					<view v-for="(item2,index2) in kindlist" :key="index2"> 
+					
 					<view class="text2">免费</view>
-			
-			 <image :src="item.src"  @click="toedit(item.src)" ></image> 
-					</view> 
+					 <image :src="item.src"></image>
+					 </view> 
 				</view>	
 				 </view> 
 				</scroll-view>
@@ -87,11 +87,6 @@
 			this.getNodesInfo();
 		},
 		methods: {
-			toedit(item,src) {
-				uni.navigateTo({
-					url: '/pages/template/edit/edit'
-				})
-			},
 			setid(i) {
 				this.clickId = "po" + i;
 				this.change = i;
@@ -129,8 +124,7 @@
 					})
 					this.topList = arr;
 				})
-			},
-			
+			}
 		}
 	}
 </script>

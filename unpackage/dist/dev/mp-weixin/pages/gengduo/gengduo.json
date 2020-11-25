@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "人才招聘",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-tabs-swiper": "/node-modules/uview-ui/components/u-tabs-swiper/u-tabs-swiper",
+    "u-search": "/node-modules/uview-ui/components/u-search/u-search"
+  }
+}

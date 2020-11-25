@@ -1,7 +1,4 @@
 {
   "navigationBarTitleText": "我的设计",
-  "usingComponents": {
-    "u-popup": "/node-modules/uview-ui/components/u-popup/u-popup",
-    "u-button": "/node-modules/uview-ui/components/u-button/u-button"
-  }
+  "usingComponents": {}
 }

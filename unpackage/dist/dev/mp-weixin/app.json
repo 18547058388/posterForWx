@@ -12,7 +12,6 @@
     "pages/template/template",
     "pages/personal/personal",
     "pages/personal/devise/devise",
-    "pages/personal/devise/edit/edit",
     "pages/personal/collect/collect",
     "pages/personal/customerservice/customerservice",
     "pages/personal/install/install",
@@ -20,7 +19,10 @@
     "pages/personal/install/change/change",
     "pages/personal/install/secede/secede",
     "pages/personal/install/change/login/login",
-    "pages/template/edit/edit"
+    "pages/gengduo/gengduo",
+    "pages/search/search",
+    "pages/index/ceshi/ceshi",
+    "pages/zhibo/zhibo"
   ],
   "subPackages": [],
   "window": {
@@ -53,5 +55,6 @@
       }
     ]
   },
-  "usingComponents": {}
+  "usingComponents": {},
+  "sitemapLocation": "sitemap38.json"
 }
