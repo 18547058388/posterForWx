@@ -1,6 +1,6 @@
 <template>
 	<view>
-
+ss
 		<view class="navbar">
 			<u-navbar   height=60 back-icon-color="#000" :is-back="false" title="创意海报" :background="background"
 			 title-color="#000">
